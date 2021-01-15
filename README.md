@@ -64,6 +64,13 @@ if __name__ == '__main__':
 [pip]:https://pypi.org/project/DeepQ/
 [example.py]:https://github.com/Madmegsox1/DeepQ/blob/main/example.py
 
-### Documentation
+## Documentation
 
-The documentation 
+The documentation [_**link**_]:
+
+
+
+##### For more info Dm on Discord **Madmeg#4882**
+
+
+[_**link**_]:https://github.com/Madmegsox1/DeepQ/blob/main/docs/agent.md
