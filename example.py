@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     tf.compat.v1.disable_eager_execution()
-    env = gym.make('LunarLander-v2')
+    env = gym.make('LunarLander-v2')  # loads the lunar lander trainer from gym
     learning_rate = 0.001
     n_games = 500
     agent = Agent(gamma=0.99, epsilon=1.0, lr=learning_rate,
@@ -37,4 +37,4 @@ if __name__ == '__main__':
     plt.title("A graph of the score increase over each episode of learning 'LunarLander-v2'")
     plt.ylabel("score")
     plt.xlabel("Episode")
-    plt.show()
+    plt.show()  # plots the scores
