@@ -11,10 +11,9 @@ To install with [pip] do `pip install DeepQ`
 
 ### Example
 <p align="center">
-    <video width="200" height="200" autoplay>
-        <source src="https://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/LunarLander-v2/original.mp4" type="video/mp4">
-    </video>
+    <img src="https://i.ibb.co/HHd2WNZ/ezgif-com-gif-maker.gif" width=200 alt="video" border="0">
 </p>
+
 The [example.py] this uses gym (which is a aim training lib), for this example i am using the environment 'LunarLander-v2' which simulates landing a 
 spacecraft on the moon. We then give control to the AI that uses DeepQ's Agent(the spacecraft) which then learns to land it!:
 
