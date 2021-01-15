@@ -16,7 +16,7 @@ To install with [pip] do `pip install DeepQ`
 </p>
 
 [example.py] this uses gym (which is a ai training lib), for this example i am using the environment 'LunarLander-v2' which simulates landing a 
-spacecraft on the moon. We then give control to the AI that uses DeepQ's Agent(the spacecraft) which then learns to land it!:
+spacecraft on the moon. We then give control to the AI that uses DeepQ's Agent(the spacecraft) which then learns to land it! If you want to visualise is add `env.render()` in the while loop:
 
 ```PY
 from DeepQ import Agent
