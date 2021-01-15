@@ -54,7 +54,7 @@
 #### Constructor Summary
 `Agent.save_model()`
 
-## `Agent.save_load`:
+## `Agent.load_model`:
 #### Field Summary:
 | Description  |
 | ------------- |
