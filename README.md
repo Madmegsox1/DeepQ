@@ -63,3 +63,7 @@ if __name__ == '__main__':
 
 [pip]:https://pypi.org/project/DeepQ/
 [example.py]:https://github.com/Madmegsox1/DeepQ/blob/main/example.py
+
+### Documentation
+
+The documentation 
