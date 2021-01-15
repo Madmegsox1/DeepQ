@@ -1,4 +1,5 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Generic badge](https://img.shields.io/badge/using-DeepQ-a83432.svg)](https://pypi.org/project/DeepQ/)
 ## DeepQ
 A reinforcement learning library in Python.
 
