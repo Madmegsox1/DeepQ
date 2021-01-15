@@ -1,14 +1,23 @@
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ## DeepQ
 A reinforcement learning library in Python.
 
-this is a basic reinforcement learning library that works with **gym** and **tensorflow**
+This is a basic reinforcement learning library that works with **gym** and **tensorflow**. It uses a reinforcement learning
+approach to machine learning. This is where the program is rewarded if it does the correct thing and if it does the wrong thing
+it's punished
 
 To install with [pip] do `pip install DeepQ`
 . The other dependencies you need are **tensorflow** and **numpy**
 
 ### Example
+<p align="center">
+    <video width="200" height="200" autoplay>
+        <source src="https://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/LunarLander-v2/original.mp4" type="video/mp4">
+    </video>
+</p>
+The [example.py] this uses gym (which is a aim training lib), for this example i am using the environment 'LunarLander-v2' which simulates landing a 
+spacecraft on the moon. We then give control to the AI that uses DeepQ's Agent(the spacecraft) which then learns to land it!:
 
-The [example.py]:
 ```PY
 from DeepQ import Agent
 import numpy as np
